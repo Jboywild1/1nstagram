@@ -21,3 +21,6 @@ fp2.onclick = function (){
     emailChange.textContent = "Find by Mobile number instead";
 }
 
+backBtn.onclick = function (){
+    location.href = "./index.html"
+}
