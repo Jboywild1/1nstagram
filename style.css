@@ -62,7 +62,8 @@ button,
   font-size: .85em;
 }
 
-.fp:hover{
+.fp:hover,
+.fp2:hover{
   text-decoration: underline;
 }
 
