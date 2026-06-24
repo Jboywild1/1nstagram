@@ -1,6 +1,6 @@
 'use stritct';
 
-
+const backBtn = document.getElementById("backBtn");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const forgetPass = document.querySelector(".fp");
