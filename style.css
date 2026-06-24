@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 2em;
+  scroll-behavior: smooth;
+  font-family: noto sans;
+}
+
+
+.flex-con{
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo{
+  width: 17vw;
+}
+
+form{
+  gap: 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  width: 45vw;
+  height: 8vh;
+  display: block;
+  padding: 0em 1em;
+  border-radius: .8em;
+  border: .5px solid grey;
+  /* margin-bottom: 1em; */
+}
+
+input::placeholder{
+  /* padding: 1em; */
+}
+
+form button{
+  width: 48vw;
+  height: 6vh;
+  color: white;
+  border-radius: .9em;
+  border: .5px solid grey;
+  background-color: #0064E0;
+}
+
+button,
+.fp{
+  cursor: pointer;
+}
+
+.fp{
+  font-size: .85em;
+}
+
+.fp:hover{
+  text-decoration: underline;
+}
+
+
+.close{
+  gap: 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.close div{
+  display: flex;
+  align-items: center;
+}
+
+.create{
+  width: 48vw;
+  height: 6vh;
+  display: block;
+  color: #0064E0;
+  border-radius: .9em;
+  border: .5px solid #0064E0;
+  background-color: white;
+}
+
+.meta{
+  width: 3vw;
+}
+
+
+
+/*FORGOTTEN PASSWORD CSS*/
+
+.forgotten{
+  gap: 1em;
+  padding: 2em;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.forgotten p{
+  font-size: .8em;
+}
+
+.acc{
+  gap: 1em;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.log{
+  width: 48vw;
+  height: 6vh;
+  color: white;
+  border-radius: .9em;
+  border: .5px solid grey;
+  background-color: #0064E0;
+}
