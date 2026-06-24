@@ -52,11 +52,13 @@ form button{
 }
 
 button,
-.fp{
+.fp,
+.fp2{
   cursor: pointer;
 }
 
-.fp{
+.fp,
+.fp2{
   font-size: .85em;
 }
 
