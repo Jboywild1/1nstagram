@@ -22,5 +22,5 @@ fp2.onclick = function (){
 }
 
 backBtn.onclick = function (){
-    location.href = "./index.html";
+    window.location.href = "./index.html";
 }
