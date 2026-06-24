@@ -4,6 +4,7 @@ const backBtn = document.getElementById("backBtn");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const forgetPass = document.querySelector(".fp");
+const fp2 = document.querySelector(".fp2");
 const phoneChange = document.getElementById("phoneChange");
 const emailAdd = document.getElementById("emailAdd");
 const emailChange = document.getElementById("emailChange");
