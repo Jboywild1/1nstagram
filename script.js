@@ -15,3 +15,9 @@ function switch(){
     window.location.href = "fordetten-password.html";
 }
 
+fp2.onclick = function (){
+    phoneChange.textContent = "Enter your Username or email address";
+    emailAdd.placeholder = "Username or Email address";
+    emailChange.textContent = "Find by Mobile number instead";
+}
+
